@@ -1,5 +1,6 @@
 /build
 /target
+/resources
 .vscode
 .idea
 .DS_Store

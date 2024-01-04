@@ -611,7 +611,7 @@ class _SafetyState extends State<_Safety> with AutomaticKeepAliveClientMixin {
                 context, 'Enable Recording Session', 'enable-record-session',
                 enabled: enabled, fakeValue: fakeValue),
             _OptionCheckBox(context, 'Enable remote configuration modification',
-                'allow-remote-config-modification',
+                'enable-remote-config-modification',
                 enabled: enabled, fakeValue: fakeValue),
           ],
         ),

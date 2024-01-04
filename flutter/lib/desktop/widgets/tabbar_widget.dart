@@ -307,9 +307,9 @@ class DesktopTab extends StatelessWidget {
         use: () async {
           var access_mode = await bind.mainGetOption(key: 'access-mode');
           var option = option2bool(
-              'allow-remote-config-modification',
+              'enable-remote-config-modification',
               await bind.mainGetOption(
-                  key: 'allow-remote-config-modification'));
+                  key: 'enable-remote-config-modification'));
           return access_mode == 'view' || (access_mode.isEmpty && !option);
         });
   }
